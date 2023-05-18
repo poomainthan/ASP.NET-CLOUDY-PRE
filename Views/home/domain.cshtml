@@ -8,7 +8,7 @@
     <div class="container">
         <div class="header_top">
             <div class="logo">
-                <a href="index.html"><img src="~/Assects/images/cloudysp.png" alt="" / width="50" height="50"><p>CLOUDY SPACE</p></a>
+                <a href=""><img src="~/Assects/images/cloudysp.png" alt="" / width="50" height="50"><p> @Html.ActionLink("CLOUDY SPACE", "index", "home")</p></a>
             </div>
             <div class="cssmenu">
                 <ul>
@@ -101,8 +101,7 @@
 
                     <div class="one-fifth column">
                         <input type="submit" value="Create "><br><br>
-
-                        <p class="active"><b><a href="~/Views/home/domainmanage.cshtml">DOMAINMANAGE </a></b></p>
+                        <p class="active">@Html.ActionLink("Domain manage", "process", "home")</b></p>
                     </div>
                 </form>
             </div>

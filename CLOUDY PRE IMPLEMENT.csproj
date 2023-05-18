@@ -88,16 +88,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assects\about.html" />
-    <Content Include="Assects\blog.html" />
-    <Content Include="Assects\contact.html" />
     <Content Include="Assects\css\bootstrap.css" />
     <Content Include="Assects\css\flexslider.css" />
     <Content Include="Assects\css\popup.css" />
     <Content Include="Assects\css\style.css" />
-    <Content Include="Assects\domain.html" />
-    <Content Include="Assects\domainmanage.html" />
-    <Content Include="Assects\faq.html" />
     <Content Include="Assects\images\about pg.jpg" />
     <Content Include="Assects\images\ADV PLN.png" />
     <Content Include="Assects\images\aplan.jpg" />
@@ -184,20 +178,11 @@
     <Content Include="Assects\images\t8.jpg" />
     <Content Include="Assects\images\t9.jpg" />
     <Content Include="Assects\images\tick1.png" />
-    <Content Include="Assects\index.html" />
     <Content Include="Assects\js\jquery-1.11.1.min.js" />
     <Content Include="Assects\js\jquery.flexslider.js" />
     <Content Include="Assects\js\jquery.magnific-popup.js" />
     <Content Include="Assects\js\jquery.wmuSlider.js" />
     <Content Include="Assects\js\nav.js" />
-    <Content Include="Assects\login.html" />
-    <Content Include="Assects\order.html" />
-    <Content Include="Assects\plans.html" />
-    <Content Include="Assects\process.html" />
-    <Content Include="Assects\register.html" />
-    <Content Include="Assects\service.html" />
-    <Content Include="Assects\single.html" />
-    <Content Include="Assects\support.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -226,6 +211,7 @@
     <Content Include="Views\home\register.cshtml" />
     <Content Include="Views\home\domainmanage.cshtml" />
     <Content Include="Views\home\process.cshtml" />
+    <Content Include="Views\home\processorder.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

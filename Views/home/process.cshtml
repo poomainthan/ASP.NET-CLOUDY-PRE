@@ -7,7 +7,7 @@
     <div class="container">
         <div class="header_top">
             <div class="logo">
-                <a href="index.html"><img src="~/Assects/images/cloudysp.png" alt="" / width="50" height="50"><p>CLOUDY SPACE</p></a>
+                <a href=""><img src="~/Assects/images/cloudysp.png" alt="" / width="50" height="50"><p> @Html.ActionLink("CLOUDY SPACE", "index", "home")</p></a>
             </div>
             <div class="cssmenu">
                 <ul>
@@ -98,7 +98,7 @@
 
                         <ul class="payment-sendbtns">
                             <li><input type="button" value="Cancel"></li>
-                            <li class="active"><a href="order.html">purchase</a></li>
+                            <li class="active"><a>@Html.ActionLink("Process order","processorder","home")</a></li>
                         </ul>
                         <div class="clearfix"> </div>
                     </form>
@@ -163,7 +163,7 @@
 
                             <ul class="payment-sendbtns">
                                 <li><input type="reset" value="Cancel"></li>
-                                <li class="active"><a href="order.html">purchase</a></li>
+                                <li class="active"><a> @Html.ActionLink("Process order","processorder","home")</a></li>
                             </ul>
                             <div class="clearfix"> </div>
                         </form>
@@ -226,7 +226,7 @@
 
                                 <ul class="payment-sendbtns">
                                     <li><input type="button" value="Cancel"></li>
-                                    <li class="active"><a href="order.html">purchase</a></li>
+                                    <li class="active"><a> @Html.ActionLink("Process order", "processorder", "home")</a></li>
                                 </ul>
                                 <div class="clearfix"> </div>
                             </form>

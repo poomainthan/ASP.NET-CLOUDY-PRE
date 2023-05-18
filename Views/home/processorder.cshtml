@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "processorder";
+    Layout = "~/Views/shared/_Layout1.cshtml";
+}
+
+
+<div class="header">
+    <div class="container">
+        <div class="header_top">
+            <div class="logo">
+               <a href=""><img src="~/Assects/images/cloudysp.png" alt="" / width="50" height="50"><p> @Html.ActionLink("CLOUDY SPACE", "index", "home")</p></a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="h_menu4">
+            <!-- start h_menu4 -->
+            <a class="toggleMenu" href="#">Menu</a>
+            <ul class="nav">
+                <li class="active"><center> <a> @Html.ActionLink("GET YOUR RECIEPT","processorder","home")</a></center></li>
+            </ul>
+            <script type="text/javascript" src="js/nav.js"></script>
+        </div><!-- end h_menu4 -->
+    </div>
+</div>
+<div class="about">
+    <div class="container">
+        <h1>purchase<span class="m_1"><br>your reciept</span></h1>
+    </div>
+</div>
+<centre>
+    <section class="h-100 h-custom" style="background-color: #eee;">
+        <form>
+            <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-lg-8 col-xl-6">
+                        <div class="card border-top border-bottom border-3" style="border-color: #f37a27 !important;">
+                            <div class="card-body p-5">
+
+                                <p class="lead fw-bold mb-5" style="color: #e74c3c;">Purchase Reciept</p>
+
+                                <div class="row">
+                                    <div class="col mb-3">
+                                        <p class="small text-muted mb-1">Date</p>
+                                        <p class="small text-muted mb-1">From:</p>
+                                        <p><input type="text"></p>
+                                        <p class="small text-muted mb-1">To:</p>
+                                        <p><input type="text"></p>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <p class="small text-muted mb-1">Order No.</p>
+                                        <p><input type="text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mx-n5 px-5 py-4" style="background-color: #f2f2f2;">
+                                <div class="row">
+                                    <div class="col mb-3">
+                                        <p class="small text-muted mb-1">Purchased plan</p>
+                                        <p><input type="text"></p>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <p class="small text-muted mb-1">Amount.</p>
+                                        <p><input type="text" value="₹"></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-3">
+                                        <p class="small text-muted mb-1">Shipping.</p>
+                                        <p><input type="text" value="₹"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <p class="small text-muted mb-1">Total.</p>
+                                    <p class="lead fw-bold mb-0" style="color: #555;"><input type="text" value="₹"></p>
+                                </div>
+                            </div>
+                            <p class="active"><b><a> @Html.ActionLink("CreateDomain","domain","home")</a></b></p>
+                            <p class="mt-4 pt-2 mb-0">
+                                Want any help? <a href="#!" style="color: #e74c3c;">
+                                    <ul><li class="active"><a>@Html.ActionLink("please contact us","contact","home")</a></li></ul>
+
+                                </a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            

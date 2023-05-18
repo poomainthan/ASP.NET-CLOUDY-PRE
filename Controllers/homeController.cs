@@ -74,5 +74,10 @@ namespace CLOUDY_PRE_IMPLEMENT.Controllers
 
             return View("process");
         }
+        public ActionResult processorder()
+        {
+
+            return View("processorder");
+        }
     }
 }
