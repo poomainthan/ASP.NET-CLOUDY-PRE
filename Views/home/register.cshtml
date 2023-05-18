@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "register";
+    Layout = "~/Views/shared/_Layout1.cshtml";
+}
+
+
+<div class="header">
+    <div class="container">
+        <div class="header_top">
+            <div class="logo">
+                <a href="index.html"><img src="~/Assects/images/cloudysp.png" alt="" / width="50" height="50"><p>CLOUDY SPACE</p></a>
+            </div>
+            <div class="cssmenu">
+                <ul>
+                    <li><a href="mailto:clodyspace12@gmail.com">info(at)cloudyspace.com</a></li>
+                    <li class="active">@Html.ActionLink("LOGIN", "login", "home")</li>
+                    <li>@Html.ActionLink("REGISTER", "register", "home")</li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="h_menu4">
+            <!-- start h_menu4 -->
+            <a class="toggleMenu" href="#">Menu</a>
+            <ul class="nav">
+                <li class="active">@Html.ActionLink("HOME", "index", "home")</li>
+                <li> @Html.ActionLink("ABOUT US", "about", "home")</li>
+                <li> @Html.ActionLink("SERVICE", "service", "home")</li>
+                <li> @Html.ActionLink("PLANS", "plan", "home")</li>
+                <li> @Html.ActionLink("DOMAIN", "domain", "home")</li>
+                <li> @Html.ActionLink("FAQ", "faq", "home")</li>
+                <li> @Html.ActionLink("BLOG", "blog", "home")</li>
+                <li> @Html.ActionLink("SUPPORT", "support", "home")</li>
+                <li> @Html.ActionLink("CONTACT", "contact", "home")</li>
+            </ul>
+            <script type="text/javascript" src="~/Assects/js/nav.js"></script>
+        </div><!-- end h_menu4 -->
+    </div>
+</div>
+<div class="about">
+    <div class="container">
+        <h1>Register<span class="m_1"><br>Center</span></h1>
+    </div>
+</div>
+<div class="account_grid">
+    <div class="container">
+        <div class="register">
+            <form onsubmit="sendemail(); reset(); return false;">
+                <div class="register-top-grid">
+                    <h4 class="tz-title-5 tzcolor-blue">
+                        <p class="tzweight_Bold"><span class="m_20">Personal Information</span></p>
+                    </h4>
+                    <div>
+                        <span class="m_25">First Name<label>*</label></span>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <span class="m_25">Last Name<label>*</label></span>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <span class="m_25">Email Address<label>*</label></span>
+                        <input type="text">
+                    </div><br><br>
+                    <div class="one-fifth column">
+                        <input type="submit" value="Submit">
+                    </div>
+
+                    <div class="clearfix"> </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+<div class="clearfix"> </div>

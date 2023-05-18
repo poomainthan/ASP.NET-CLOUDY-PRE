@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "service";
+    ViewBag.Title = "login";
     Layout = "~/Views/shared/_Layout1.cshtml";
 }
 
@@ -23,9 +23,9 @@
             <!-- start h_menu4 -->
             <a class="toggleMenu" href="#">Menu</a>
             <ul class="nav">
-                <li>@Html.ActionLink("HOME", "index", "home")</li>
+                <li class="active">@Html.ActionLink("HOME", "index", "home")</li>
                 <li> @Html.ActionLink("ABOUT US", "about", "home")</li>
-                <li class="active"> @Html.ActionLink("SERVICE", "service", "home")</li>
+                <li> @Html.ActionLink("SERVICE", "service", "home")</li>
                 <li> @Html.ActionLink("PLANS", "plan", "home")</li>
                 <li> @Html.ActionLink("DOMAIN", "domain", "home")</li>
                 <li> @Html.ActionLink("FAQ", "faq", "home")</li>
@@ -39,50 +39,40 @@
 </div>
 <div class="about">
     <div class="container">
-        <h1>Our Service<span class="m_1"><br>What we Doing</span></h1>
+        <h1>Login<span class="m_1"><br>Center</span></h1>
     </div>
 </div>
-<div class="about_grid">
+<div class="account_grid">
     <div class="container">
-        <h4 class="tz-title-4 tzcolor-blue">
-            <p class="tzweight_Bold"><span class="m_1">Hosting<br></span>Services</p>
-        </h4>
-        <div class="service_box">
-            <div class="col-md-4 service_grid1">
-                <i class="icon1"> </i>
-                <h3>Unlimited Disk Space</h3>
-                <p>unlimited disk space, allows you to add as much content and pages to your website as you wish without any extra fees from your web host provider (although it's always a good idea to check the fine print).</p>
-            </div>
-            <div class="col-md-4 service_grid1">
-                <i class="icon2"> </i>
-                <h3>Unlimited Bandwidth</h3>
-                <p> “Unlimited bandwidth” ideally means that as far as the amount of data-transfer goes, you can download or upload as much data as you want in a given period of time.</p>
-            </div>
-            <div class="col-md-4 service_grid1">
-                <i class="icon3"> </i>
-                <h3>24/7 Customer Support</h3>
-                <p>24/7 customer support means customers can get help and find answers to questions as soon as they come up—24/7 and in real-time.</p>
-            </div>
-            <div class="clearfix"> </div>
+        <div class="col-md-6 login-left">
+            <h4 class="tz-title-5 tzcolor-blue">
+                <p class="tzweight_Bold"><span class="m_20">New Customers</span></p>
+            </h4>
+            <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+            <a class="acount-btn" href="register.cshtml">Create an Account</a>
         </div>
-        <div class="service_box1">
-            <div class="col-md-4 service_grid1">
-                <i class="icon4"> </i>
-                <h3>High Speed</h3>
-                <p>OneDrive — Fast cloud storage that struggles with large files</p>
-            </div>
-            <div class="col-md-4 service_grid1">
-                <i class="icon5"> </i>
-                <h3>Site Protections</h3>
-                <p>Monitoring ,Firefall,backups.</p>
-            </div>
-            <div class="col-md-4 service_grid1">
-                <i class="icon6"> </i>
-                <h3>SSD Database Storage</h3>
-                <p>SSD is faster and has more predictable performance than HDD. </p>
-            </div>
-            <div class="clearfix"> </div>
+        <div class="col-md-6 login-right">
+            <h4 class="tz-title-5 tzcolor-blue">
+                <p class="tzweight_Bold"><span class="m_20">Registered Customers</span></p>
+            </h4>
+
+            <p>If you have an account with us, please log in.</p>
+            <form>
+                <div>
+                    <span class="m_25">Email Address<label>*</label></span>
+                    <input type="text">
+                </div>
+                <div>
+                    <span class="m_25">Password<label>*</label></span>
+                    <input type="text">
+                </div>
+
+                <a class="forgot" href="#">Forgot Your Password?</a><br><br>
+                <p class="active"><b><a href="plans.cshtml">log in</a></b></p>
+
+            </form>
         </div>
+        <div class="clearfix"> </div>
     </div>
 </div>
 <div class="domain">
@@ -99,7 +89,9 @@
                 <br><br>
                 <p class="active"><b>@Html.ActionLink("purchase", "process", "home")</b></p>
             </div>
+
             <div class="clearfix"> </div>
         </form>
     </div>
 </div>
+

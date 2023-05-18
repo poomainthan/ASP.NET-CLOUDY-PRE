@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "support";
+    Layout = "~/Views/shared/_Layout1.cshtml";
+}
+
+<div class="header">
+    <div class="container">
+        <div class="header_top">
+            <div class="logo">
+                <a href="index.html"><img src="~/Assects/images/cloudysp.png" alt="" / width="50" height="50"><p>CLOUDY SPACE</p></a>
+            </div>
+            <div class="cssmenu">
+                <ul>
+                    <li><a href="mailto:clodyspace12@gmail.com">info(at)cloudyspace.com</a></li>
+                    <li class="active">@Html.ActionLink("LOGIN", "login", "home")</li>
+                    <li>@Html.ActionLink("REGISTER", "register", "home")</li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="h_menu4">
+            <!-- start h_menu4 -->
+            <a class="toggleMenu" href="#">Menu</a>
+            <ul class="nav">
+                <li>@Html.ActionLink("HOME", "index", "home")</li>
+                <li> @Html.ActionLink("ABOUT US", "about", "home")</li>
+                <li> @Html.ActionLink("SERVICE", "service", "home")</li>
+                <li> @Html.ActionLink("PLANS", "plan", "home")</li>
+                <li> @Html.ActionLink("DOMAIN", "domain", "home")</li>
+                <li> @Html.ActionLink("FAQ", "faq", "home")</li>
+                <li> @Html.ActionLink("BLOG", "blog", "home")</li>
+                <li class="active"> @Html.ActionLink("SUPPORT", "support", "home")</li>
+                <li> @Html.ActionLink("CONTACT", "contact", "home")</li>
+            </ul>
+            <script type="text/javascript" src="~/Assects/js/nav.js"></script>
+        </div><!-- end h_menu4 -->
+    </div>
+</div>
+<div class="about">
+    <div class="container">
+        <h1>Support<span class="m_1"><br>Center</span></h1>
+    </div>
+</div>
+<div class="support_box">
+    <div class="container">
+        <h4 class="tz-title-4 tzcolor-blue">
+            <p class="tzweight_Bold"><span class="m_1">Support<br></span>Center</p>
+            <p class="tzweight_Bold"><span class="m_1"><b>1.Account Registration</b></p>
+        </h4><p>1.Visit the official website https://www.cloudyspace.com to click the Register button.<p><img src="~/Assects/images/new4.png" alt="" width="1100" height="200" /></p></p><br /><br />
+        <p><img src="~/Assects/images/new1.png" alt="" width="1100" height="600" /></p><br /><br />
+        <p>1.1.Firstname: 6-20 characters including numbers, letters or underscores.</p>
+        <p>1.2.lastname:  6-20 characters including numbers, letters or underscores.</p>
+        <p>1.3.Email: Support 6-40 characters.It can use letters, numbers, underscores, hyphen and periods.</p>
+        <p>1.4 Password: 8-18 characters including numbers, lowercase and uppercase letters.</p>
+        <p>1.5 confirm Password: 8-18 characters including numbers, lowercase and uppercase letters.</p>
+    </div>
+
+    <div class="clearfix"> </div>
+    </form>
+</div>
+

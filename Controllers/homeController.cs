@@ -24,5 +24,55 @@ namespace CLOUDY_PRE_IMPLEMENT.Controllers
 
             return View("service");
         }
+        public ActionResult plan()
+        {
+
+            return View("plan");
+        }
+        public ActionResult domain()
+        {
+
+            return View("domain");
+        }
+        public ActionResult faq()
+        {
+
+            return View("faq");
+        }
+        public ActionResult blog()
+        {
+
+            return View("blog");
+        }
+        public ActionResult support()
+        {
+
+            return View("support");
+        }
+        public ActionResult contact()
+        {
+
+            return View("contact");
+        }
+        public ActionResult login()
+        {
+
+            return View("login");
+        }
+        public ActionResult register()
+        {
+
+            return View("register");
+        }
+        public ActionResult domainmanage()
+        {
+
+            return View("domainmanage");
+        }
+        public ActionResult process()
+        {
+
+            return View("process");
+        }
     }
 }

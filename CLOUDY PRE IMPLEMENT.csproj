@@ -212,6 +212,20 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
+    <Content Include="Views\shared\_Layout1.cshtml" />
+    <Content Include="Views\home\Index.cshtml" />
+    <Content Include="Views\home\about.cshtml" />
+    <Content Include="Views\home\service.cshtml" />
+    <Content Include="Views\home\plan.cshtml" />
+    <Content Include="Views\home\domain.cshtml" />
+    <Content Include="Views\home\faq.cshtml" />
+    <Content Include="Views\home\blog.cshtml" />
+    <Content Include="Views\home\support.cshtml" />
+    <Content Include="Views\home\contact.cshtml" />
+    <Content Include="Views\home\login.cshtml" />
+    <Content Include="Views\home\register.cshtml" />
+    <Content Include="Views\home\domainmanage.cshtml" />
+    <Content Include="Views\home\process.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -222,8 +236,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\home\" />
-    <Folder Include="Views\shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
