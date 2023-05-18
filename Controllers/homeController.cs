@@ -19,5 +19,10 @@ namespace CLOUDY_PRE_IMPLEMENT.Controllers
 
             return View("about");
         }
+        public ActionResult service()
+        {
+
+            return View("service");
+        }
     }
 }

@@ -96,6 +96,7 @@
     <Content Include="Assects\css\popup.css" />
     <Content Include="Assects\css\style.css" />
     <Content Include="Assects\domain.html" />
+    <Content Include="Assects\domainmanage.html" />
     <Content Include="Assects\faq.html" />
     <Content Include="Assects\images\about pg.jpg" />
     <Content Include="Assects\images\ADV PLN.png" />
@@ -110,6 +111,8 @@
     <Content Include="Assects\images\banner.jpg" />
     <Content Include="Assects\images\bcblack2.jpg" />
     <Content Include="Assects\images\bcblack3.jfif" />
+    <Content Include="Assects\images\blogi.jpg" />
+    <Content Include="Assects\images\blogi2.jpg" />
     <Content Include="Assects\images\blurycloud.jfif" />
     <Content Include="Assects\images\bplan.jpg" />
     <Content Include="Assects\images\calender.png" />
@@ -192,10 +195,8 @@
     <Content Include="Assects\plans.html" />
     <Content Include="Assects\process.html" />
     <Content Include="Assects\register.html" />
-    <Content Include="Assects\register12.html" />
     <Content Include="Assects\service.html" />
     <Content Include="Assects\single.html" />
-    <Content Include="Assects\summa.html" />
     <Content Include="Assects\support.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -211,9 +212,6 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\shared\_Layout1.cshtml" />
-    <Content Include="Views\home\Index.cshtml" />
-    <Content Include="Views\home\about.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -224,6 +222,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\home\" />
+    <Folder Include="Views\shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
